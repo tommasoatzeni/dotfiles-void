@@ -1,0 +1,8 @@
+agetty-tty1
+agetty-tty2
+agetty-tty3
+dbus
+NetworkManager
+sshd
+tlp
+udevd
