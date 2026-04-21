@@ -1,0 +1,23 @@
+#!/bin/sh
+
+LED="/sys/class/leds/tpacpi::standby/brightness"
+
+# Aspetta che il LED sia disponibile
+i=0
+while [ ! -f "$LED" ] && [ $i -lt 30 ]; do
+    sleep 1
+    i=$((i + 1))
+done
+
+# Leggi stato coperchio
+state=$(cat /proc/acpi/button/lid/LID/state 2>/dev/null | awk '{print $2}')
+echo "$(date) state=$state" >> /tmp/lid-led.log
+
+# Imposta LED
+if [ "$state" = "closed" ]; then
+    echo 1 | tee "$LED" > /dev/null
+else
+    echo 0 | tee "$LED" > /dev/null
+fi
+
+sleep 86400
