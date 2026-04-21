@@ -1,0 +1,14 @@
+#
+# See fstab(5).
+#
+# <file system>	<dir>	<type>	<options>		<dump>	<pass>
+tmpfs		/tmp	tmpfs	defaults,nosuid,nodev   0       0
+192.168.10.10:/mnt/dati /dati nfs defaults,_netdev 0 0
+# Swap
+UUID=9533faa5-0e28-4222-b009-2bcda58d2027 none swap sw 0 0
+
+# Dati
+UUID=cb4806ca-b46a-4d2c-8225-1a2abe7a4d75 /data ext4 defaults 0 2
+
+# Video
+UUID=c681b3ca-060c-4be8-b660-1f71212d20d3 /media/video ext4 defaults 0 2
