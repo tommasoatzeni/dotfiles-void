@@ -1,16 +1,16 @@
 
    SERVICE              STATE   ENABLED   PID      COMMAND           TIME
- ✔ NetworkManager       run     true      999      NetworkManager    second time provided was later than self
- ✔ acpid                run     true      992      acpid             second time provided was later than self
- ✔ agetty-tty1          run     true      1012     agetty            second time provided was later than self
- ✔ agetty-tty2          run     true      993      agetty            second time provided was later than self
- ✔ agetty-tty3          run     true      998      agetty            second time provided was later than self
- ✔ chronyd              run     true      1644     chronyd           4 minutes
- ✔ dbus                 run     true      994      dbus-daemon       second time provided was later than self
- ✔ lid-led              run     true      995      /bin/sh           second time provided was later than self
- ✔ nanoklogd            run     true      1207     nanoklogd         second time provided was later than self
- ✔ socklog-unix         run     true      1005     socklog           second time provided was later than self
- ✔ sshd                 run     true      1006     sshd: /usr/bin... second time provided was later than self
- ✔ tlp                  run     true      1000     tlp               second time provided was later than self
- ✔ udevd                run     true      1003     udevd             second time provided was later than self
+ ✔ NetworkManager       run     true      999      NetworkManager    11 minutes
+ ✔ acpid                run     true      1001     acpid             11 minutes
+ ✔ agetty-tty1          run     true      1008     agetty            11 minutes
+ ✔ agetty-tty2          run     true      1005     agetty            11 minutes
+ ✔ agetty-tty3          run     true      1002     agetty            11 minutes
+ ✔ chronyd              run     true      1004     chronyd           11 minutes
+ ✔ dbus                 run     true      996      dbus-daemon       11 minutes
+ ✔ lid-led              run     true      1007     /bin/sh           11 minutes
+ ✔ nanoklogd            run     true      1215     nanoklogd         11 minutes
+ ✔ socklog-unix         run     true      1015     socklog           11 minutes
+ ✔ sshd                 run     true      998      sshd: /usr/bin... 11 minutes
+ ✔ tlp                  run     true      993      tlp               11 minutes
+ ✔ udevd                run     true      1013     udevd             11 minutes
 
