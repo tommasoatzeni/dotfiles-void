@@ -1,0 +1,17 @@
+#!/bin/sh
+# Radio stations - pataccone
+case "$1" in
+    purple|pp)
+        echo "Purple Piper Progressive Rock"
+        mpv --no-video "http://s2.shoutitaly.com:8030/radio.mp3"
+        ;;
+    radio24|r24)
+        echo "Radio24"
+        mpv --no-video "https://streamingv2.shoutcast.com/radio24"
+        ;;
+    *)
+        echo "Stazioni disponibili:"
+        echo "  radio purple   - Purple Piper Progressive Rock"
+        echo "  radio radio24  - Radio24"
+        ;;
+esac

@@ -60,3 +60,4 @@ alias aic='aichat --session'
 
 alias aigrok='aichat -m xai:grok-3'
 alias aigrok-mini='aichat -m xai:grok-3-mini'
+export PATH="$HOME/bin:$PATH"
