@@ -1,0 +1,7 @@
+# aichat configuration
+# Copia in ~/.config/aichat/config.yaml e inserisci la tua API key
+
+model: claude:claude-sonnet-4-20250514
+clients:
+  - type: claude
+    api_key: INSERISCI_QUI_LA_TUA_API_KEY
