@@ -53,3 +53,10 @@ export VISUAL=vim
 if [ -f /etc/bash/bashrc.d/bash_completion.sh ]; then
     . /etc/bash/bashrc.d/bash_completion.sh
 fi
+
+# AI da terminale
+alias ai='aichat'
+alias aic='aichat --session'
+
+alias aigrok='aichat -m xai:grok-3'
+alias aigrok-mini='aichat -m xai:grok-3-mini'

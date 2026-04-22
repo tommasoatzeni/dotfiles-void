@@ -5,3 +5,13 @@ model: claude:claude-sonnet-4-20250514
 clients:
   - type: claude
     api_key: INSERISCI_QUI_LA_TUA_API_KEY
+
+  - type: openai-compatible
+    name: xai
+    api_base: https://api.x.ai/v1
+    api_key: INSERISCI_QUI_LA_TUA_XAI_KEY
+    models:
+      - name: grok-3
+        max_output_tokens: 8192
+      - name: grok-3-mini
+        max_output_tokens: 8192
